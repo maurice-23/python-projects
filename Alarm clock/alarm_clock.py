@@ -14,7 +14,6 @@ def alarm():
 	while True:
 		# Set Alarm
 		set_alarm_time = f"{hour.get()}:{minute.get()}:{second.get()}"
-
 		# Wait for one seconds
 		time.sleep(1)
 
@@ -77,6 +76,7 @@ Button(root,text="Set Alarm",font=("Helvetica 15"),command=Threading).pack(pady=
 
 # Execute Tkinter
 root.mainloop()
+
 
 
 
