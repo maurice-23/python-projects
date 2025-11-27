@@ -6,8 +6,6 @@ import winsound
 from threading import *
 root = Tk()
 root.geometry("400x200")
-
-# Use Threading
 def Threading():
 	t1=Thread(target=alarm)
 	t1.start()
@@ -80,5 +78,6 @@ Button(root,text="Set Alarm",font=("Helvetica 15"),command=Threading).pack(pady=
 
 # Execute Tkinter
 root.mainloop()
+
 
 
