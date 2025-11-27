@@ -1,4 +1,4 @@
-# Import Required Library
+
 from tkinter import *
 import datetime
 import time
@@ -84,3 +84,4 @@ Button(root,text="Set Alarm",font=("Helvetica 15"),command=Threading).pack(pady=
 
 # Execute Tkinter
 root.mainloop()
+
