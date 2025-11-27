@@ -9,7 +9,6 @@ root.geometry("400x200")
 def Threading():
 	t1=Thread(target=alarm)
 	t1.start()
-
 def alarm():
 	# Infinite Loop
 	while True:
@@ -78,6 +77,7 @@ Button(root,text="Set Alarm",font=("Helvetica 15"),command=Threading).pack(pady=
 
 # Execute Tkinter
 root.mainloop()
+
 
 
 
