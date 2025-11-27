@@ -4,11 +4,7 @@ import datetime
 import time
 import winsound
 from threading import *
-
-# Create Object
 root = Tk()
-
-# Set geometry
 root.geometry("400x200")
 
 # Use Threading
@@ -84,4 +80,5 @@ Button(root,text="Set Alarm",font=("Helvetica 15"),command=Threading).pack(pady=
 
 # Execute Tkinter
 root.mainloop()
+
 
